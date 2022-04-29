@@ -2,11 +2,11 @@
     width: 80px;
     height: 40px;
     padding-right: 700px;
-    
+
 }
 
 @media (max-width: 500px) {
-    
+
 }
 #header {
     position: fixed;
@@ -19,6 +19,7 @@
     z-index: 9;
     height: 60px;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -33,9 +34,10 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #F9FAF8;
-   
-   
-    
+}
+
+.nav {
+    display: flex;
 }
 
 h2 {
@@ -55,19 +57,15 @@ span {
     color: white;
 }
 
-.nav {
+.nav-bar {
     display: flex;
     margin-bottom: 120px;
-    
+
 }
 
-.nav-links {
-    display: flex;
-    margin-left: auto;
-}
-
-.nav-link-3, .nav-link-2 {
-    margin-left: 16px;
+.nav-link {
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 button {
@@ -80,14 +78,16 @@ button {
     border-radius: 10px;
     border-color: #3882F6;
 }
+
 img {
     width: 400px;
-    height: 150px;   
+    height: 150px;
     margin-left: auto;
 }
-.section-inside {
+
+#section-inside {
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
 .s-header {
     color: black;
@@ -99,25 +99,25 @@ img {
     margin-bottom: 50px;
 }
 
-.section-inside1 {
+#section-inside1 {
     display: flex;
     padding: 20px;
     align-items: center;
     background-color: antiquewhite;
-    
+
 }
-.section-inside12 {
-    
+#section-inside12 {
+
     padding-top: 50px;
     padding-left: 480px;
     padding-right: 400px;
     align-items: center;
     background-color: rgb(177, 229, 231);
-    
+
 }
 #form{
     align-items: center;
-   
+
 }
 .form-example {
     padding:10px;
@@ -139,7 +139,7 @@ input[type=submit] {
     margin-left: 150px;
   }
 
-.section-inside-i {
+#section-inside-i {
     display: flex;
     justify-content: space-between;
     padding-left: 200px;
@@ -147,33 +147,34 @@ input[type=submit] {
     padding-bottom: 100px;
 }
 
-.section-inside-i figure {
+#section-inside-i figure {
     width: 160px;
 }
 
 
-.section-inside-i figcaption {
+#section-inside-i figcaption {
     text-align: center;
 }
 
 
-.section-inside-i img {
+#section-inside-i img {
     width: 100%;
     margin-left: auto;
     border: 4px solid blue;
     border-radius: 6px;
-    
+
 }
-.section-2 {
+
+#section-2 {
     background-color: #E5E7EB;
     font-size: 36px;
     padding: 100px;
     padding-left: 250px;
-    
+
 }
-.section-2 p strong {
+#section-2 p strong {
     padding-left: 350px;
-    
+
 }
 .button-1 {
     background-color: #3882F6;
@@ -189,7 +190,7 @@ input[type=submit] {
     padding: 8%;
     background-color: #F9FAF8;
 }
-.section-3 {
+.section3 {
     background-color: #3882F6;
     color: #F9FAF8;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
